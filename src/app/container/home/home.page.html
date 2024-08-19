@@ -1,0 +1,62 @@
+<ion-header [translucent]="true">
+  <ion-toolbar class="ion-color">
+    <ion-title style="text-align: center;">
+      Select your area
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="searchArea ion-padding">
+  <ion-searchbar animated="true" placeholder="Search Area"></ion-searchbar>
+
+  <ion-accordion-group>
+    <ion-accordion value="first">
+      <ion-item slot="header" color="width">
+        <ion-label>Dubai</ion-label>
+      </ion-item>
+
+      <div class="ion-padding" slot="content" shape="round" color="danger" [routerLink]="['/pages/quick-service']"> Abu Hail
+      </div>
+      <div class="ion-padding" slot="content" shape="round" color="danger" [routerLink]="['/quick-service']"> Academic
+        City </div>
+      <div class="ion-padding" slot="content" shape="round" color="danger" [routerLink]="['/quick-service']"> AI Quoz 3
+      </div>
+      <div class="ion-padding" slot="content" shape="round" color="danger" [routerLink]="['/quick-service']"> AI Quoz 4
+      </div>
+      <div class="ion-padding" slot="content" shape="round" color="danger" [routerLink]="['/quick-service']">Airport Rd
+      </div>
+      <div class="ion-padding" slot="content" shape="round" color="danger" [routerLink]="['/quick-service']"> Airport
+        Road </div>
+      <div class="ion-padding" slot="content" shape="round" color="danger" [routerLink]="['/quick-service']"> Akoya By
+        Damac </div>
+      <div class="ion-padding" slot="content" shape="round" color="danger" [routerLink]="['/quick-service']">Akoya
+        Oxygen </div>
+      <div class="ion-padding" slot="content" shape="round" color="danger" [routerLink]="['/quick-service']"> AI Aweer
+      </div>
+      <div class="ion-padding" slot="content" shape="round" color="danger" [routerLink]="['/quick-service']"> AI Baagh
+      </div>
+      <div class="ion-padding" slot="content" shape="round" color="danger" [routerLink]="['/quick-service']"> AI Bada
+      </div>
+      <div class="ion-padding" slot="content" shape="round" color="danger" [routerLink]="['/quick-service']"> AI Baraha
+      </div>
+    </ion-accordion>
+    <ion-accordion value="second">
+      <ion-item slot="header" color="width">
+        <ion-label>Sharjah</ion-label>
+      </ion-item>
+      <div class="ion-padding" slot="content">Second Content</div>
+    </ion-accordion>
+    <ion-accordion value="third">
+      <ion-item slot="header" color="width">
+        <ion-label>Ajman</ion-label>
+      </ion-item>
+      <div class="ion-padding" slot="content">Third Content</div>
+    </ion-accordion>
+    <ion-accordion value="forth">
+      <ion-item slot="header" color="width">
+        <ion-label>Ras AI Khaimah</ion-label>
+      </ion-item>
+      <div class="ion-padding" slot="content">Third Content</div>
+    </ion-accordion>
+  </ion-accordion-group>
+</ion-content>

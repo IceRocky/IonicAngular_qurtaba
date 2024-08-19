@@ -1,0 +1,72 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <div class="service">
+      <div class="backButton" [routerLink]="['/pages/clean-service']">
+        <ion-icon name="chevron-back-outline"></ion-icon>
+      </div>
+      <div class="homeTitle">
+        <ion-title>Home Cleaning</ion-title>
+      </div>
+    </div>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <p style="font-size: 0.7em; color: rgb(0, 163, 109);">
+    Step 1 of 4
+  </p>
+  <p>
+    How many hours do you need your professional to stay?
+  </p>
+  <ion-select label="Hour">
+    <ion-select-option value="1">1</ion-select-option>
+    <ion-select-option value="2">2</ion-select-option>
+    <ion-select-option value="3">3</ion-select-option>
+    <ion-select-option value="4">4</ion-select-option>
+    <ion-select-option value="5">5</ion-select-option>
+    <ion-select-option value="6">6</ion-select-option>
+    <ion-select-option value="7">7</ion-select-option>
+    <ion-select-option value="8">8</ion-select-option>
+    <ion-select-option value="9">9</ion-select-option>
+    <ion-select-option value="10">10</ion-select-option>
+    <ion-select-option value="11">11</ion-select-option>
+  </ion-select>
+  <hr style="background-color: black; width: 90%;">
+  <p>
+    How many professional do you need?
+  </p>
+  <ion-select label="Professional">
+    <ion-select-option value="1">1</ion-select-option>
+    <ion-select-option value="2">2</ion-select-option>
+    <ion-select-option value="3">3</ion-select-option>
+    <ion-select-option value="4">4</ion-select-option>
+  </ion-select>
+  <hr style="background-color: black;" width="90%">
+
+  <p>
+    Need cleaning materials?
+  </p>
+
+  <ion-segment value="all" style="width: 90%; margin-left: 5%;">
+    <ion-segment-button value="all">
+      <ion-label>No, I have them</ion-label>
+    </ion-segment-button>
+    <ion-segment-button value="favorites">
+      <ion-label>Yes, Please</ion-label>
+    </ion-segment-button>
+  </ion-segment>
+</ion-content>
+
+<ion-footer>
+  <div class="footerService">
+    <div>
+      <div style="font-size: 0.9em;">Total</div>
+      <div>AED 78.00</div>
+    </div>
+    <div [routerLink]="['/home-clean1']">
+      <ion-button shape="round" size="default" style="color: white;">
+        Next
+      </ion-button>
+    </div>
+  </div>
+</ion-footer>

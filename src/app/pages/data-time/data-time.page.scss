@@ -1,0 +1,53 @@
+
+.DateTimeTitle{
+  padding-top: 5%;
+  padding-bottom: 5%;
+  display: flex;
+  justify-content: flex-start;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.1);
+
+  .backButton{
+    margin-left: 5%;
+    margin-top: 1%;
+  }
+  .homeTitle{
+    color: rgb(2, 2, 2);
+    font-size: 1.3em;
+    margin-left: 20%;
+  }
+}
+
+p{
+  font-size: 0.9em;
+  margin-left: 5%;
+  width: 99%;
+}
+.hourSelect{
+  margin-left: 5%;
+  width: 90%;
+
+  .hourSelectItem{
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  }
+}
+
+ion-select,ion-select-option{
+  width: 90%;
+  margin-left: 5%;
+  background-color: white;
+
+  .alert-wrapper, .ion-overlay-wrapper, .sc-ion-alert-md{
+    background-color: white;
+  }
+}
+
+
+
+.footerService{
+  padding-top: 5%;
+  padding-bottom: 5%;
+  display: flex;
+  justify-content: space-around;
+}
+

@@ -1,0 +1,36 @@
+<ion-header [translucent]="true">
+
+  <ion-toolbar>
+
+    <ion-img slot="start" alt="serviceLogo" class="serviceLogo" src="../../../assets/img/serviceLogo.png" />
+    <ion-chip slot="secondary" class="avatar">
+      <ion-avatar>
+        <img alt="Silhouette of a person's head" src="../../../assets/img/—Pngtree—vector location icon_3989706.png" />
+      </ion-avatar>
+      <ion-label>Abu Hail</ion-label>
+    </ion-chip>
+
+  </ion-toolbar>
+</ion-header>
+
+<img alt="cleanService" class="cleanService" src="../../../assets/img/clean_service.png" />
+
+<ion-content>
+  <p class="ourService">Our Service</p>
+  <div [routerLink]="['/pages/clean-service']">
+    <ion-card class="service">
+      <img alt="service1" class="service1" src="../../../assets/img/service1.png" />
+      <p>
+        Cleaning Services
+      </p>
+    </ion-card>
+  </div>
+  <div>
+    <ion-card class="service">
+      <img alt="service1" class="service1" src="../../../assets/img/service2.png" />
+      <p>
+        Maintenance Services
+      </p>
+    </ion-card>
+  </div>
+</ion-content>

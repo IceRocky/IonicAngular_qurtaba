@@ -1,0 +1,42 @@
+<ion-header>
+  <ion-toolbar>
+    <div class="DateTimeTitle">
+      <div class="backButton" [routerLink]="['/home-clean1']">
+        <ion-icon name="chevron-back-outline"></ion-icon>
+      </div>
+      <div class="homeTitle">
+        <ion-title>Date Time</ion-title>
+      </div>
+    </div>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <p style="font-size: 0.7em; color: rgb(0, 163, 109);">
+    Step 3 of 4
+  </p>
+  <p>
+    When would you like your service?
+  </p>
+  <ion-datetime #datetime>
+    <ion-buttons slot="buttons">
+      <ion-button color="danger" (click)="datetime.reset()">Reset</ion-button>
+      <ion-button color="primary" (click)="datetime.cancel()">Never mind</ion-button>
+      <ion-button color="primary" (click)="datetime.confirm()">Ok</ion-button>
+    </ion-buttons>
+  </ion-datetime>
+</ion-content>
+
+<ion-footer>
+  <div class="footerService">
+    <div>
+      <div style="font-size: 0.9em;">Total</div>
+      <div>AED 78.00</div>
+    </div>
+    <div [routerLink]="['/deep-cleaning']">
+      <ion-button shape="round" size="default" style="color: white;">
+        Next
+      </ion-button>
+    </div>
+  </div>
+</ion-footer>

@@ -1,0 +1,113 @@
+ion-toolbar {
+  --background: rgb(6,192,112);
+
+  --min-height: 5%;
+  --padding-top: 5%;
+  --padding-bottom: 20%;
+}
+
+.serviceLogo{
+  width: 40%;
+}
+
+.cleanService{
+  margin-left: 5%;
+  width: 90%;
+  border-radius: 10px;
+  height: 20%;
+  margin-top: -15%;
+z-index: inherit;
+}
+
+
+ion-card {
+  margin-left: 5%;
+  width: 90%;
+  --background: #f0eded;
+  --color: #9efff0;
+}
+
+ion-card-title {
+  --color: #52ffe4;
+}
+
+ion-card-subtitle {
+  --color: #d1fff8;
+}
+
+
+.unread-indicator {
+  background: var(--ion-color-primary);
+
+  width: 10px;
+  height: 10px;
+
+  border-radius: 100%;
+
+  position: absolute;
+
+  inset-inline-start: 12px;
+  top: 12px;
+}
+
+.metadata-end-wrapper {
+  position: absolute;
+
+  top: 10px;
+  inset-inline-end: 10px;
+
+  font-size: 0.8rem;
+
+  display: flex;
+  align-items: center;
+}
+
+ion-label strong {
+  display: block;
+
+  max-width: calc(100% - 60px);
+
+  overflow: hidden;
+
+  text-overflow: ellipsis;
+}
+
+ion-label ion-note {
+  font-size: 0.9rem;
+}
+
+ion-buttons,ion-button {
+  background-color: white;
+  border: none;
+  border-radius: 20px;
+}
+
+ion-chip{
+  background-color: white;
+}
+
+.service1{
+  width: 20%;
+}
+
+.ourService{
+  margin-left: 5%;
+  font-size: 1.2em;
+}
+
+.service{
+  padding-top: 5%;
+  padding-bottom: 5%;
+  display: flex;
+  justify-content: space-around;
+
+  p{
+    color: rgb(7, 193, 113);
+    font-size: 1.3em;
+  }
+}
+
+ion-chip
+{
+  margin-right: 3%;
+}

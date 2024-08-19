@@ -1,0 +1,86 @@
+<ion-header>
+  <ion-toolbar>
+    <div class="deepClean">
+      <div class="backButton" [routerLink]="['/deep-cleaning']">
+        <ion-icon name="chevron-back-outline"></ion-icon>
+      </div>
+      <div class="homeTitle">
+        <ion-title>Villa</ion-title>
+      </div>
+    </div>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <p style="font-size: 0.7em; color: rgb(0, 163, 109);">
+    Step 4 of 4
+  </p>
+  <div class="tab">
+    <div>
+      <ion-button size="small" fill="outline" [routerLink]="['/deep-cleaning']">Apartment</ion-button>
+    </div>
+    <div [routerLink]="['/villa']">
+      <ion-button size="small" >Villa</ion-button>
+    </div>
+    <div>
+      <ion-button size="small" fill="outline">Offers</ion-button>
+    </div>
+  </div>
+
+  <div class="alert">
+    Villa
+  </div>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>1 Bedroom</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      Enjoy a healthy and refreshing environment after we complete deep cleaning your entire home.
+    </ion-card-content>
+    <div class="tabButton">
+      <ion-button fill="clear">AED 599</ion-button>
+      <ion-button size="small">Add</ion-button>
+    </div>
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>2 Bedroom</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      A full precess to remove all bacteria and germs from every comer of your home.
+    </ion-card-content>
+    <div class="tabButton">
+      <ion-button fill="clear">AED 799</ion-button>
+      <ion-button size="small">Add</ion-button>
+    </div>
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>3 Bedroom</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      Detailed cleaning of your family homoe for a hygienic and germ-free home.
+    </ion-card-content>
+    <div class="tabButton">
+      <ion-button fill="clear">AED 999</ion-button>
+      <ion-button size="small">Add</ion-button>
+    </div>
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>4 Bedroom</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      In depth cleaning of every area and coner of your home with top quality products.
+    </ion-card-content>
+    <div class="tabButton">
+      <ion-button fill="clear">AED 1299</ion-button>
+      <ion-button size="small">Add</ion-button>
+    </div>
+  </ion-card>
+</ion-content>

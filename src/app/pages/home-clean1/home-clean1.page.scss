@@ -1,0 +1,114 @@
+ion-title{
+  text-align: center;
+}
+ion-toolbar {
+  --background: rgb(255, 255, 255);
+}
+
+.service{
+  padding-top: 5%;
+  padding-bottom: 5%;
+  display: flex;
+  justify-content: flex-start;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.1);
+
+  .backButton{
+    margin-left: 5%;
+    margin-top: 1%;
+  }
+  .homeTitle{
+    color: rgb(2, 2, 2);
+    font-size: 1.3em;
+    margin-left: 13%;
+  }
+}
+
+p{
+  font-size: 0.9em;
+  margin-left: 5%;
+  width: 99%;
+}
+
+
+div.scrollmenu {
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu div {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.title{
+  font-weight: bold;
+  color: black;
+}
+.content{
+  color: black;
+}
+
+.card {
+  margin: 5%;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+  max-width: 40%;
+  // margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card ion-button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  text-align: center;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+.addButton{
+  margin-left: -1%;
+  height: 10px;
+}
+
+
+.alert {
+  margin-top: 5%;
+  margin-left: 5%;
+  width: 90%;
+  padding: 20px;
+  background-color: #f3e9e8;
+  color: rgb(0, 0, 0);
+}
+
+.add {
+  margin-left: 15px;
+  color: blue;
+  font-weight: bold;
+  float: right;
+  font-size: 1em;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.footerService{
+  padding-top: 5%;
+  padding-bottom: 5%;
+  display: flex;
+  justify-content: space-around;
+}
+
