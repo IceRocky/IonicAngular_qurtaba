@@ -31,7 +31,6 @@
     "intl-tel-input": "^23.8.1",
     "ionicons": "^7.0.0",
     "libphonenumber-js": "^1.11.5",
-    "ngx-intl-tel-input": "^3.2.0",
     "postcss-loader": "^8.1.1",
     "resolve-url-loader": "^5.0.0",
     "rxjs": "~7.8.0",
